@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "build": "postcss style.css -o dis/style.css",
+    "watch": "postcss style.css -o dis/style.css --watch",
+    "type": "module"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.17",
+    "feather": "^0.0.5",
+    "feather-icons": "^4.29.2",
+    "postcss": "^8.5.6",
+    "postcss-cli": "^11.0.1",
+    "tailwindcss": "^4.1.17"
+  }
+}
